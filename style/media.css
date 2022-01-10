@@ -1,0 +1,519 @@
+@media(prefers-color-scheme:dark) {
+
+  :root {
+    --body: #313131;
+    --main-color: #fff;
+    --reklama: #0C0C0C;
+    --text: #313131;
+  }
+
+  .header__logo::before {
+    content: url(../img/Logo2.png);
+  }
+
+  .playstation__logo:before {
+    content: url(../img/playstationlogo.png);
+  }
+
+  /* .airpods__grid{
+        display: flex;
+        flex-wrap: wrap;
+    }  */
+}
+
+@media(max-width:1190px) {
+
+  .header__input {
+    width: 388px;
+  }
+
+  .playstation__title {
+    font-size: 42px;
+  }
+
+  .carousel__img {
+    height: 390px;
+  }
+
+  .carousel-indicators {
+    margin-right: 24px;
+    margin-bottom: 18px;
+  }
+
+  .airpods__grid {
+    grid-column-gap: 14px;
+    grid-row-gap: 27px;
+  }
+
+  .airpods__txt {
+    font-size: 22px;
+    line-height: 27px;
+  }
+
+  .airpods__text-right {
+    font-size: 22px;
+    line-height: 25px;
+  }
+
+  .phone__card {
+    max-width: 206px;
+    width: 100%;
+  }
+
+  .phone__block {
+    padding-bottom: 12px;
+  }
+
+  .laptop__text {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .seller__text {
+    font-size: 15px;
+  }
+
+  .playstation__img {
+    margin-right: -85px;
+  }
+
+  .playstation__title {
+    font-size: 34px;
+  }
+
+  /* .menu-btn:focus+.header__list {
+        transform: translateX(0);
+    }
+    .menu-btn {
+        display: block;
+        
+    } */
+
+
+}
+
+@media(max-width:990px) {
+  .header__input {
+    margin-left: 58px;
+  }
+
+  .header__btn {
+    padding: 0;
+  }
+
+  .header__input {
+    width: 429px;
+  }
+
+  .header__link-bottom {
+
+    font-size: 15px;
+  }
+
+  .header__logo {
+    margin-left: -40px;
+  }
+
+  .carousel__img {
+    height: 500px;
+  }
+
+  .carousel-indicators {
+    margin-right: 267px;
+    margin-bottom: 5px;
+  }
+
+  .title {
+    margin-top: 30px;
+    margin-bottom: 90px;
+  }
+
+  .airpods__grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .phone__content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* .playstation__content {
+        min-height: 304px;
+    }
+    .playstation__title {
+        font-size: 34px;
+    } */
+  .playstation__btn {
+    font-size: 15px;
+    line-height: 22px;
+    padding: 13px 25px;
+  }
+
+  .seller__content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .seller__content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .laptop__content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .seller__btn {
+    margin-bottom: 10px;
+  }
+
+  .footer__content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media(max-width:767px) {
+  .header__input {
+    margin-left: 18px;
+  }
+
+  .header__input {
+    width: 302px;
+  }
+
+  .header__link-bottom {
+    font-size: 21px;
+    line-height: 5px;
+  }
+
+  .carousel-indicators {
+    margin-right: 185px;
+  }
+
+  .playstation__title {
+    font-size: 25px;
+  }
+
+  .playstation__img {
+    width: 463px;
+  }
+
+  .laptop-title {
+    text-align: center;
+  }
+
+  .seller-title {
+    text-align: center;
+  }
+
+  .footer__logo {
+    margin-bottom: 30px;
+  }
+}
+
+@media(max-width:600px) {
+  .menu-btn {
+    display: block;
+    /* z-index: 4; */
+  }
+  
+  .header__list {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(15px);
+    padding: 25px;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    /* box-shadow: 0 0 10px rgb(143, 35, 35); */
+    transform: translateX(105%);
+    transition: 0.5s;
+    z-index: 3;
+    row-gap: 30px;
+   
+  }
+
+  .header__link {
+    padding: 15px 0;
+ 
+  }
+
+  /* .header__content {
+    display: flex;
+    justify-content: space-between;
+  } */
+
+  .menu-btn:focus+.header__list {
+    transform: translateX(0);
+  }
+
+  .header__content-bottom {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .header__logo {
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  .header__link-bottom {
+    margin-top: 30px;
+    font-size: 18px;
+  }
+
+  .carousel__img {
+    height: 416px;
+  }
+
+  .title {
+
+    font-size: 43px;
+  }
+
+  .playstation__content-left {
+    display: flex;
+    align-items: center;
+  }
+
+  .playstation__title {
+    font-size: 44px;
+  }
+
+  .playstation__content {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .laptop__buttum {
+    margin-bottom: 30px;
+  }
+
+  .playstation__block {
+    width: 100%;
+  }
+
+  .playstation__img {
+    width: 100%;
+  }
+
+}
+
+@media(max-width:467px) {
+  .playstation__title {
+    font-size: 35px;
+  }
+
+  .header__link-bottom {
+    font-size: 14px;
+    line-height: 5px;
+  }
+
+  .footer__input {
+    width: 280px;
+  }
+
+  .footer__btn {
+    width: 112px;
+  }
+}
+
+@media(max-width:391px) {
+  .header__input {
+    width: 264px;
+  }
+
+  .footer__input {
+    width: 214px;
+    height: 35px;
+  }
+
+  .footer__btn {
+    height: 35px;
+    font-size: 14px;
+  }
+
+  .airpods__grid {
+    width: 100%;
+  }
+
+  .carousel__img {
+    height: 324px;
+  }
+
+  .title {
+    line-height: 45px;
+    font-size: 26px;
+  }
+
+  .laptop-title {
+    font-size: 32px;
+    line-height: 20px;
+  }
+
+  .carousel-indicators {
+    margin-right: 115px;
+  }
+
+  /* .header__content {
+    display: flex;
+    justify-content:space-around;
+  } */
+
+  .carousel-indicators-dots {
+    width: 8px !important;
+    height: 8px !important;
+  }
+
+  .carousel-indicators-dots.active {
+    width: 12px !important;
+    height: 12px !important;
+  }
+
+  .header__content-block {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: 4px;
+  }
+}
+
+@media(max-width:320px) {
+  .header__input {
+    width: 183px;
+    height: 35px;
+    font-size: 10px;
+    line-height: 8px;
+  }
+
+  .header__icon {
+    margin-right: 2px;
+    width: 12px;
+    height: 17px;
+  }
+
+  .header__tech {
+    font-size: 8px;
+    line-height: 10px;
+  }
+
+  .header__btn {
+    width: 90px;
+    height: 35px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .header__link-bottom {
+    font-size: 17px;
+    line-height: 2px;
+  }
+
+  .carousel__img {
+    height: 267px;
+  }
+
+  .carousel-indicators {
+    margin-right: 78px;
+    margin-bottom: -8px;
+  }
+
+  .title {
+    line-height: 35px;
+    font-size: 21px;
+    margin-bottom: 46px;
+  }
+
+  .header__content-block {
+    margin-left: 8px;
+  }
+
+  .airpods__grid {
+    width: 100%;
+  }
+
+  .phone-title {
+    text-align: center;
+    font-size: 32px;
+    line-height: 49px;
+
+  }
+
+  .airpods__btn {
+
+    margin-bottom: 13px;
+  }
+
+  .airpods__text {
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 3px;
+  }
+
+  .airpods__txt {
+    font-size: 19px;
+    line-height: 27px;
+  }
+
+  .airpods__text-right {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .airpods__item:nth-of-type(3) ::before {
+    margin-left: 8px;
+  }
+
+  .airpods__btn {
+    padding: 8px 50px;
+  }
+
+  .header__content-btn {
+    padding: 8px 50px;
+  }
+
+  .playstation__btn {
+    padding: 8px 50px;
+  }
+
+  .seller__btn {
+    padding: 8px 50px;
+  }
+
+  .laptop-title {
+    font-size: 25px;
+    line-height: 16px;
+  }
+
+  .playstation__title {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  .footer__input {
+    width: 180px;
+    height: 35px;
+}
+
+  .airpods__price {
+    font-size: 18px;
+    line-height: 20px;
+    margin-left: 20px;
+  }
+
+  .airpods__item:nth-of-type(1)::before,
+  .airpods__item:nth-of-type(2)::before,
+  .airpods__item:nth-of-type(3) ::before,
+  .airpods__item:nth-of-type(4)::before {
+    width: 50px;
+    height: 50px;
+    font-size: 15px;
+    line-height: 70px;
+  }
+}
